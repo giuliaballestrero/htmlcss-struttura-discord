@@ -86,18 +86,16 @@ div.intro>p {
 .cards {
     display: flex;
     margin: 0 auto;
-    height: 40rem;
-    margin-top: 4rem;
     width: 80%;
+    padding-top: 8rem;
 }
 
 .cards-reverse {
     display: flex;
     margin: 0 auto;
-    height: 30rem;
-    margin-top: 2rem;
     width: 80%;
     flex-direction: row-reverse;
+    padding-top: 8rem;
 }
 
 div.smallcard>h1 {
@@ -113,26 +111,53 @@ div.smallcard>p {
 
 
 .bigcard {
-    height: 20rem;
     width: 60%;
 }
 
 .smallcard {
-    height: 20rem;
     width: 40%;
     padding-right: 3rem;
     padding-left: 3rem;
 }
 
-.bigbox {
+.big-box {
+    margin-bottom: 6rem;
 }
 
 .bigbox-content {
     width: 80%;
-    height: 35rem;
     margin: 0 auto;
-    margin-top: 2rem;
+    padding-top: 10rem;
+    text-align: center;
 }
+
+div.bigbox-content>h1,
+div.bigbox-content>p {
+    text-align: center;
+    font-weight: bold;
+}
+
+div.bigbox-content>h1 {
+    font-size: 3.5rem;
+}
+
+div.bigbox-content>p {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+div.bigbox-content>img {
+    width: 100%;
+}
+
+div.bigbox-content>h2 {
+    font-size: 2.5rem;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    padding-bottom: 3rem;
+}
+
+
 
 /*INIZIO FOOTER*/
 
@@ -183,10 +208,10 @@ hr {
 
 
 button {
-    text-decoration: none;
     border: none;
     border-radius: 10% 10%;
 }
+
 .white-button {
     background-color: white;
     color: black;
@@ -205,6 +230,7 @@ button {
 .lilac-button {
     background-color: #8ea1e1;
     color: white;
-    font-size: 1rem;
-    padding: 0.5rem; 
+    font-size: 1.5rem;
+    padding: 1.2rem;
+
 }
