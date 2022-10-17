@@ -9,12 +9,13 @@ header {
     background-color: aqua;
 }
 
-.container {
+.container-nav {
     display: flex;
-    margin: 0 auto;
-    width: 70%;
+    align-items: center;
     background-color: orange;
     margin-top: 2rem;
+    margin: 0 auto;
+    width: 80%;
 }
 
 ul {
@@ -26,8 +27,24 @@ ul {
 header nav {
     display: flex;
     width: 50%;
+    justify-content: center;
 }
 
-header div {
+.nav-div {
     width: 25%;
+}
+
+
+.container-intro {
+    background-color: blueviolet;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    width: 60%;
+    height: 20rem;
+    background-color: brown;
 }
