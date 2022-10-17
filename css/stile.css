@@ -7,13 +7,18 @@
 
 header {
     background-color: aqua;
+    margin-top: 2rem;
+}
+
+section {
+    margin-top: 2rem;
+    align-items: center;
 }
 
 .container-nav {
     display: flex;
     align-items: center;
     background-color: orange;
-    margin-top: 2rem;
     margin: 0 auto;
     width: 80%;
 }
@@ -47,4 +52,35 @@ header nav {
     width: 60%;
     height: 20rem;
     background-color: brown;
+}
+
+.cards {
+    display: flex;
+    margin: 0 auto;
+    height: 30rem;
+    background-color: aqua;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.cards-reverse {
+    display: flex;
+    margin: 0 auto;
+    height: 30rem;
+    background-color: aqua;
+    margin-top: 2rem;
+    width: 80%;
+    flex-direction: row-reverse;
+}
+
+.bigcard {
+    background-color: blue;
+    height: 20rem;
+    width: 60%;
+}
+
+.smallcard {
+    background-color: palevioletred;
+    height: 20rem;
+    width: 40%;
 }
