@@ -5,8 +5,29 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: aqua;
+}
+
 .container {
     display: flex;
-    width: 80%;
     margin: 0 auto;
+    width: 70%;
+    background-color: orange;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+header nav {
+    display: flex;
+    width: 50%;
+}
+
+header div {
+    width: 25%;
 }
