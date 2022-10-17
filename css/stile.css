@@ -30,6 +30,10 @@ ul {
     display: flex;
 }
 
+ul>li {
+    display: inline-blockS;
+}
+
 
 header nav {
     display: flex;
@@ -96,4 +100,28 @@ header nav {
     height: 35rem;
     margin: 0 auto;
     margin-top: 2rem;
+}
+
+footer {
+    background-color: darkslategray;
+    margin: 0 auto;
+}
+
+.footer-link, .footer-bottom {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-link {
+    justify-content: center;
+}
+
+.footer-bottom {
+    justify-content: space-between;
+}
+
+hr {
+    border: 1px solid lightblue;
 }
