@@ -30,10 +30,9 @@ ul {
     list-style-type: none;
     height: 100%;
     display: flex;
-
 }
 
-ul>li {
+nav>ul>li {
     display: inline-block;
     margin-left: 2rem;
 }
@@ -186,17 +185,26 @@ footer {
     display: flex;
 }
 
+div.card-c4>ul>li {
+    display: inline-block;
+    margin-left: 7rem;
+}
+
 .footer-link {
-    justify-content: center;
-    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .footer-bottom {
     justify-content: space-between;
+    padding-top: 2rem; 
+    padding-bottom: 5rem;
 }
 
 hr {
     border: 1px solid lightblue;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -210,6 +218,7 @@ hr {
 button {
     border: none;
     border-radius: 10% 10%;
+    margin-left: 1.5rem;
 }
 
 .white-button {
