@@ -34,18 +34,19 @@ ul {
 
 ul>li {
     display: inline-block;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
 }
 
 header nav {
     display: flex;
-    width: 50%;
+    width: 60%;
     justify-content: space-around;
     color: white;
 }
 
 .nav-div {
-    width: 25%;
+    display: flex;
+    width: 20%;
 }
 
 
@@ -62,6 +63,21 @@ header nav {
 .intro {
     width: 60%;
     height: 20rem;
+}
+
+div.intro>h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+div.intro>p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .cards {
@@ -151,36 +167,30 @@ hr {
 
 /*BUTTONS SETTINGS*/
 
+
+button {
+    text-decoration: none;
+    border: none;
+    border-radius: 10% 10%;
+}
 .white-button {
     background-color: white;
     color: black;
-    border: none;
-    border-radius: 20% 20% 20% 20%;
-    text-decoration: none;
     font-size: 1rem;
     padding: 0.5rem;
-    
+   
 }
 
 .black-button {
     background-color:black;
     color: white;
-    border: none;
-    border-radius: 20% 20% 20% 20%;
-    text-decoration: none;
     font-size: 1rem;
     padding: 0.5rem;
-    
-
 }
 
 .lilac-button {
     background-color: #8ea1e1;
     color: white;
-    border: none;
-    border-radius: 20% 20% 20% 20%;
-    text-decoration: none;
     font-size: 1rem;
-    padding: 0.5rem;
-    
+    padding: 0.5rem; 
 }
