@@ -6,8 +6,9 @@
 }
 
 header {
-    background-color: aqua;
-    margin-top: 2rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-top: 2rem;
 }
 
 section {
@@ -19,7 +20,6 @@ section {
 .container-nav {
     display: flex;
     align-items: center;
-    background-color: orange;
     margin: 0 auto;
     margin-bottom: 2rem;
     width: 80%;
@@ -27,18 +27,21 @@ section {
 
 ul {
     list-style-type: none;
+    height: 100%;
     display: flex;
+
 }
 
 ul>li {
-    display: inline-blockS;
+    display: inline-block;
+    margin-left: 2.5rem;
 }
-
 
 header nav {
     display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: space-around;
+    color: white;
 }
 
 .nav-div {
@@ -47,17 +50,18 @@ header nav {
 
 
 .container-intro {
-    background-color: blueviolet;
     height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    color: white;
+
 }
 
 .intro {
     width: 60%;
     height: 20rem;
-    background-color: brown;
 }
 
 .cards {
@@ -103,19 +107,33 @@ header nav {
 }
 
 footer {
-    background-color: darkslategray;
+    background-color: #23272a;
     margin: 0 auto;
+    color: white;
+}
+
+.blue {
+    color: #7188d9;
 }
 
 .footer-link, .footer-bottom {
     display: flex;
-    align-items: center;
     width: 80%;
     margin: 0 auto;
 }
 
+.card-c1 {
+    width: 40%;
+}
+
+.card-c4 {
+    width: 60%;
+    display: flex;
+}
+
 .footer-link {
     justify-content: center;
+    align-items: center;
 }
 
 .footer-bottom {
@@ -124,4 +142,45 @@ footer {
 
 hr {
     border: 1px solid lightblue;
+}
+
+.logo {
+    width: 1.2rem;
+    height: auto;
+}
+
+/*BUTTONS SETTINGS*/
+
+.white-button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20% 20% 20% 20%;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    
+}
+
+.black-button {
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 20% 20% 20% 20%;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    
+
+}
+
+.lilac-button {
+    background-color: #8ea1e1;
+    color: white;
+    border: none;
+    border-radius: 20% 20% 20% 20%;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    
 }
